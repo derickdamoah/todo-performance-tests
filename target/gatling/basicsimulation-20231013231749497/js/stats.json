@@ -1,0 +1,317 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 4,
+        "ok": 3,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 14,
+        "ok": 14,
+        "ko": 175
+    },
+    "maxResponseTime": {
+        "total": 423,
+        "ok": 423,
+        "ko": 175
+    },
+    "meanResponseTime": {
+        "total": 159,
+        "ok": 153,
+        "ko": 175
+    },
+    "standardDeviation": {
+        "total": 165,
+        "ok": 191,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 99,
+        "ok": 23,
+        "ko": 175
+    },
+    "percentiles2": {
+        "total": 237,
+        "ok": 223,
+        "ko": 175
+    },
+    "percentiles3": {
+        "total": 386,
+        "ok": 383,
+        "ko": 175
+    },
+    "percentiles4": {
+        "total": 416,
+        "ok": 415,
+        "ko": 175
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 3,
+    "percentage": 75
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 25
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.8,
+        "ok": 0.6,
+        "ko": 0.2
+    }
+},
+"contents": {
+"req_load-the-homepa-67194": {
+        "type": "REQUEST",
+        "name": "load the homepage",
+"path": "load the homepage",
+"pathFormatted": "req_load-the-homepa-67194",
+"stats": {
+    "name": "load the homepage",
+    "numberOfRequests": {
+        "total": 2,
+        "ok": 2,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 14,
+        "ok": 14,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 423,
+        "ok": 423,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 219,
+        "ok": 219,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 205,
+        "ok": 205,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 219,
+        "ok": 219,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 321,
+        "ok": 321,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 403,
+        "ok": 403,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 419,
+        "ok": 419,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 2,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.4,
+        "ok": 0.4,
+        "ko": 0
+    }
+}
+    },"req_load-the-add-it-a85c4": {
+        "type": "REQUEST",
+        "name": "load the add item page",
+"path": "load the add item page",
+"pathFormatted": "req_load-the-add-it-a85c4",
+"stats": {
+    "name": "load the add item page",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 23,
+        "ok": 23,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 23,
+        "ok": 23,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 23,
+        "ok": 23,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 23,
+        "ok": 23,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 23,
+        "ok": 23,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 23,
+        "ok": 23,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 23,
+        "ok": 23,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.2,
+        "ok": 0.2,
+        "ko": 0
+    }
+}
+    },"req_complete-and-su-52e0b": {
+        "type": "REQUEST",
+        "name": "complete and submit the form on the add item page",
+"path": "complete and submit the form on the add item page",
+"pathFormatted": "req_complete-and-su-52e0b",
+"stats": {
+    "name": "complete and submit the form on the add item page",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 175,
+        "ok": 0,
+        "ko": 175
+    },
+    "maxResponseTime": {
+        "total": 175,
+        "ok": 0,
+        "ko": 175
+    },
+    "meanResponseTime": {
+        "total": 175,
+        "ok": 0,
+        "ko": 175
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 175,
+        "ok": 0,
+        "ko": 175
+    },
+    "percentiles2": {
+        "total": 175,
+        "ok": 0,
+        "ko": 175
+    },
+    "percentiles3": {
+        "total": 175,
+        "ok": 0,
+        "ko": 175
+    },
+    "percentiles4": {
+        "total": 175,
+        "ok": 0,
+        "ko": 175
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.2,
+        "ok": 0,
+        "ko": 0.2
+    }
+}
+    }
+}
+
+}

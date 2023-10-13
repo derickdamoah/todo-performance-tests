@@ -1,0 +1,4 @@
+[error] /Users/derickdamoahtwum/Desktop/projects/todo-performance-tests/project/Dependencies.scala:12:1: expected class or object definition
+[error] libraryDependencies += "org.mongodb.scala" %% "mongo-scala-driver" % "4.10.2"
+[error] ^
+[error] one error found

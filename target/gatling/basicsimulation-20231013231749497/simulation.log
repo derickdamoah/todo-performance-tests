@@ -1,0 +1,7 @@
+RUN	computerdatabase.BasicSimulation	basicsimulation	1697239069497	 	3.6.1
+USER	Scenario Name	START	1697239069843
+REQUEST		load the homepage	1697239069850	1697239070273	OK	 
+REQUEST		load the add item page	1697239072288	1697239072311	OK	 
+REQUEST		complete and submit the form on the add item page	1697239074340	1697239074515	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 403
+REQUEST		load the homepage	1697239074519	1697239074533	OK	 
+USER	Scenario Name	END	1697239074534

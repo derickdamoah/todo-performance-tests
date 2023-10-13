@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Dhttp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, -Djdk.debug=release, -Dsbt.script=/opt/homebrew/Cellar/sbt/1.9.6/libexec/bin/sbt, -Dswoval.tmpdir=/Users/derickdamoahtwum/.sbt/1.0, -Dftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, -Djna.nosys=true, -Dlog4j.ignoreTCL=true, -Dscala.ext.dirs=/Users/derickdamoahtwum/.sbt/1.0/java9-rt-ext-homebrew_11_0_20, -DsocksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, -server, -Xmx1G, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:+ParallelRefProcEnabled, -XX:MaxInlineLevel=20, -XX:MaxTrivialSize=12, -XX:-UseBiasedLocking)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for io.gatling.sbt.GatlingFramework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(computerdatabase.BasicSimulation, sbt.ForkMain$SubclassFingerscan@3a883ce7, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0mSimulation BasicSimulation successful.[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0minfo[0m] [0m[0mSimulation(s) execution ended.[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	computerdatabase.BasicSimulation[0m
